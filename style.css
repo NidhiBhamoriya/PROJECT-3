@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main
+{
+    width: 100%;
+    height: 100%;
+    /* background-color: aquamarine; */
+}
+
+#nav
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /*heigth vese m nhi h rhi hu vo me adjust kr lugi gi*/
+    /* background-color: red; */
+    padding: 40px 57px;
+}
+
+#nav-part1{
+    display: flex;
+    justify-content: space-between;       /* justify-content: space-between;  bilkul nhi lge gi jb tk ap width nhi doge*/
+    width: 42%;                 /*yh nav width lega left se rigth ki trf 35% */
+}
+
+#nav-part2{
+    display: flex;
+    justify-content: space-between;    /* same here width dena hi pde ga*/
+    width: 35%;                           /*yh nav width lega rigth se left ki trf 35% */
+}
+
+#nav h2{                  /* h2,h3,h4 sbhi ak hi size ke he na*/
+    font-size: 17.5px;
+    font-weight: 550;
+}
+#nav h3{
+    font-size: 17.5px;
+    font-weight: 550;
+}
+#nav h4{
+    font-size: 17.5px;
+    font-weight: 550;
+}
+
+#content{
+    margin-top:35px;
+    padding: 40px 57px;
+}
+
+#content h3{
+    font-size: 33px;
+}
+
+#content h1{
+    margin-top: 37px;
+    font-size: 125px;
+    font-weight: 549;
+    line-height: 114px;
+    letter-spacing: -2.5px;
+    word-spacing: 4px;
+}
+
+#case{
+    padding: 0px 32px;
+    padding-top: 90px;
+    margin:30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#case h4{
+    font-size: 18.5px;
+}
+
+#case h5{
+    font-size: 18.5px;
+}
+
+#right{
+    display: flex;
+    align-items: center;
+    width: 11.5%;
+    justify-content: space-between;
+}
+
+#line{
+    width: 100px;
+    height: 2.5px;
+    background-color: #000;
+}
+
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 63.5px;
+    gap: 60px;
+}
+
+.elem{
+    width: 50%;
+}
+
+.elem-img{
+    height: 571px;
+    width: 100%;
+    background-color: rgb(173, 209, 220);
+    border-radius: 22px;
+    background-size: cover;
+    background-position:center;
+}
+#img1{
+    background-image: url(./diamond_img.webp);
+}
+
+#img2{
+    background-image: url(./img2.webp);
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+
+.bottom i{
+    padding: 8px 20px;
+    font-size: 19px;
+    border: 2.2px solid black;
+    border-radius: 30px;
+}
+
+.bottom i:hover{    
+    background-color: #000;
+    color: #fff;
+}
+
+.bottom h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.bottom h4{
+    font-size: 19px;
+    font-weight: 400;
+    color: #808080;
+}
